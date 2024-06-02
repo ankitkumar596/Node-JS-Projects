@@ -1,5 +1,7 @@
 # Node-JS-Projects
 
+## Node js Installation for login user
+```
 #!/bin/bash
 
 # Download Node.js
@@ -22,3 +24,4 @@ node -v
 
 # Display npm version
 npm -v
+```
