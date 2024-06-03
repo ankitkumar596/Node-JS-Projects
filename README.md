@@ -11,10 +11,10 @@ wget https://nodejs.org/dist/v20.14.0/node-v20.14.0-linux-x64.tar.xz
 tar -xJf node-v20.14.0-linux-x64.tar.xz
 
 # Move Node.js to /usr/local
-sudo mv node-v20.14.0-linux-x64 /usr/local/node-v20
+sudo mv node-v20.14.0-linux-x64 /usr/local/nodejs
 
 # Add Node.js to PATH
-echo 'export PATH=/usr/local/node-v20/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/usr/local/nodejs/bin:$PATH' >> ~/.bashrc
 
 # Reload .bashrc
 source ~/.bashrc
@@ -38,10 +38,10 @@ wget https://nodejs.org/dist/v20.14.0/node-v20.14.0-linux-x64.tar.xz
 tar -xJf node-v20.14.0-linux-x64.tar.xz
 
 # Move Node.js to /usr/local
-sudo mv node-v20.14.0-linux-x64 /usr/local/node-v20
+sudo mv node-v20.14.0-linux-x64 /usr/local/nodejs
 
 # Add Node.js to PATH for all users
-echo 'export PATH=/usr/local/node-v20/bin:$PATH' | sudo tee -a /etc/profile.d/node.sh > /dev/null
+echo 'export PATH=/usr/local/nodejs/bin:$PATH' | sudo tee -a /etc/profile.d/node.sh > /dev/null
 
 # Reload profile
 source /etc/profile
